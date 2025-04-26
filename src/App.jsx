@@ -116,9 +116,18 @@ function App() {
       <Navbar />
 
       <div className="flex flex-col items-center justify-center p-6 text-center">
-        <h1 className="text-4xl font-bold mb-8 text-gray-900 dark:text-white">
-          Typing Master
+        <h1 className="text-4xl font-bold mb-2 text-gray-900 dark:text-white">
+          Welcome to Typing Master!
         </h1>
+
+        <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
+          Boost your typing speed, accuracy and precision with a variety of
+          engaging and interactive exercises.
+        </p>
+
+        <h2 className="text-2xl mb-4 text-gray-900 dark:text-white">
+          Choose Your Practice Duration
+        </h2>
 
         {/* Time Buttons */}
         <div className="flex flex-wrap justify-center gap-2 mb-6">
@@ -181,12 +190,12 @@ function App() {
           </button>
 
           {/* More Options Button */}
-          <button
+          {/* <button
             onClick={() => alert("More options coming soon!")}
             className="flex items-center gap-2 px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700 transition"
           >
             <MoreVertical size={18} /> More
-          </button>
+          </button> */}
         </div>
 
         {/* Result Popup */}
